@@ -1,0 +1,12 @@
+{
+    "version": 3,
+    "mappings": "AEEA,AAAA,IAAI,CAAA;EACA,WAAW,EDOH,YAAY,EAAE,SAAS;CCNlC;;AACD,AAAA,KAAK,AAAA,2BAA2B;AAChC,KAAK,AAAA,2BAA2B,CAAC;EAC/B,kBAAkB,EAAE,IAAI;EACxB,MAAM,EAAE,CAAC;CACV;;AAED,aAAa;AACb,AAAA,KAAK,CAAA,AAAA,IAAC,CAAD,MAAC,AAAA,EAAa;EACjB,eAAe,EAAE,SAAS;CAC3B;;AACD,AAAA,KAAK,CAAA;EACD,UAAU,EAAE,KAAK;CACpB;;AACD,AAAA,KAAK,EAAC,KAAK,CAAA;EACP,OAAO,EAAE,KAAK;CACjB;;AFjBD,AAAA,UAAU,CAAA;EACN,KAAK,EAAE,WAAW;EAClB,MAAM,EAAE,SAAS;CACpB",
+    "sources": [
+        "styel.scss",
+        "_variables.scss",
+        "_global.scss",
+        "_variables.scss"
+    ],
+    "names": [],
+    "file": "styel.css"
+}
