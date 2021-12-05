@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- GOOGLE fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <!-- CSS FILES -->
+    <link rel="stylesheet" href="./style/styel.css">
+    <title>Tip calculator</title>
+
+  </head>
+  <body>
+    <div class="container">
+      <div class="calculator">
+        <label for="bill">Bill</label>
+        <input type="number" name="bill" class="bill">
+        <form class="select-tip" name="select-tip">
+          <label for="select-tip">Select Tip %</label>
+          <button class="btn">5%</button>
+          <button class="btn">10%</button>
+          <button class="btn">15%</button>
+          <button class="btn">25%</button>
+          <button class="btn">50%</button>
+          <input type="number" name="custom" placeholder="Custom" class="custom">
+        </form>
+        <label for="howMany">Number of People</label>
+        <input type="number" name="howMany" class="howMany" >
+      </div>
+      <div class="display">
+        <div class="disp-line">
+          <p class="text">  Tip Amount<br> <span class="lightened"> / person</span></p>
+          <p id="tip-amount">$0.00</p>
+        </div>
+        <div class="disp-line">
+          <p class="text">Total<br> <span class="lightened"> / person</span></p>
+          <p id="total">$0.00</p>
+        </div>
+        <button class="reset-btn">reset</button>
+      </div>
+    </div>
+    
+    <script src="./app.js"></script>
+  </body> 
+</html>
